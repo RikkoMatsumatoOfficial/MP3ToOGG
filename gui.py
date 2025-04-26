@@ -10,7 +10,7 @@ class GUI():
         textm = tk.Label(text="This is My First Program for Converting MP3 to OGG format... So Enjoy to use this!!!", foreground="#003e94")
         entry = tk.Entry()
         window.geometry("600x920")
-        but = tk.Button(text="Convert!!!", command=lambda : print(entry.get()))
+        but = tk.Button(text="Convert!!!", command=lambda : print("Coming Soon(WIP)"))
         entry.pack()
         but.pack()
         textm.pack()
